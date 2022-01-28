@@ -1,0 +1,92 @@
+.header {
+  position: absolute;
+  width: 1600px;
+  height: 92px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  font-size: 25px;
+}
+
+.title {
+  position: absolute;
+  width: 67px;
+  height: 28px;
+  left: 80px;
+  top: 32px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #1f1f1f;
+}
+
+.first-list {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #1f1f1f;
+  text-decoration: none;
+  position: absolute;
+  width: 603px;
+  height: 28px;
+  left: 499px;
+  top: 32px;
+}
+
+.a {
+  position: absolute;
+  width: 92px;
+  height: 28px;
+  left: 0px;
+  top: 0px;
+}
+
+.b {
+  position: absolute;
+  width: 83px;
+  height: 28px;
+  left: 126px;
+  top: 0px;
+}
+
+.c {
+  position: absolute;
+  width: 99px;
+  height: 28px;
+  left: 251px;
+  top: 0px;
+}
+
+.d {
+  position: absolute;
+  width: 70px;
+  height: 28px;
+  left: 392px;
+  top: 0px;
+}
+
+.e {
+  position: absolute;
+  width: 86px;
+  height: 28px;
+  left: 504px;
+  top: 0px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+
+ul {
+  background-color: #ffffff;
+}
