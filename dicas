@@ -1,5 +1,0 @@
-<label>
-  <input type="checkbox" />
-  Concordo com a política de privacidade (Tem que botar a label, porque o input
-  é muito pequeno, apenas um quadrado)
-</label>

@@ -11,57 +11,81 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
     />
-    <link rel="stylesheet" href="./css/stylesheet.css" />
+    <link rel="stylesheet" href="./css/stylesheet.css" type="text/css" />
+  </head>
+  <link rel="stylesheet" href="./css/reset.css" type="text/css" />
   </head>
   <body>
     <header class="header">
-      <h1 class="title">SNEAK.</h1>
-      <nav>
-        <ul class="first-list">
-          <li class="first-list a"><a href="">Masculino</a></li>
-          <li class="first-list b"><a href="">Feminino</a></li>
-          <li class="first-list c"><a href="">Novidades</a></li>
-          <li class="first-list d"><a href="">Ofertas</a></li>
-          <li class="first-list e"><a href="">Coleções</a></li>
-        </ul>
-        <img src="./img/Search.svg" alt="Pesquisar" />
-      </nav>
+      <div class="headertitle">
+      <h1>SNEAK.</h1>
+    </div>
+        <div class="first-list">
+          <nav>
+          <ul>
+            <li class="list-element"><a href="">Masculino</a></li>
+            <li class="list-element"><a href="">Feminino</a></li>
+            <li class="list-element"><a href="">Novidades</a></li>
+            <li class="list-element"><a href="">Ofertas</a></li>
+            <li class="list-element"><a href="">Coleções</a></li>
+          </ul>
+        </nav>
+        </div>
+        <div class="search">
+          <img class="search-icon" src="./img/Search.svg" alt="Pesquisar" />
+          <input class="search-button" type="text" placeholder="Procurar" />
+          <button class="bag"><img src="./img/Bag.svg" /></button>
+        </div>
     </header>
     <main>
       <section>
         <div>
-          <h1>
+          <h1 class="bodytitle">
             SNEAK. <br />
             Ultra Light
           </h1>
-          <p>
+          <p class="first-paragraph">
             Os tênis SNEAK foram criados especificamente para treinos de
             circuito, seja para aulas fitness em casa ou para sua própria rotina
             de treinos.
           </p>
-          <button>Adicione ao carrinho</button>
+          <button class="first-button">Adicione ao carrinho</button>
         </div>
         <div>
-          <img src="./img/tenisbranco.png" alt="tenis branco sneak" />
+          <img
+            class="tenisbranco"
+            src="./img/tenisbranco.png"
+            alt="tenis branco sneak"
+          />
         </div>
       </section>
-      <aside>
-        <h3>CORRIDA - MASCULINO</h3>
-        <div>
-          <div>Branco</div>
-          <div>Bege</div>
-          <div>Cinza</div>
-          <div>Grafite</div>
+      <aside class="aside">
+        <h3 class="asidetitle">CORRIDA - MASCULINO</h3>
+        <div class="div-ellipses">
+          <div class="ellipse">
+            <img src="./img/Ellipse1.png" alt="Branco" /> Branco
+          </div>
+          <div class="ellipse"><img src="./img/Ellipse2.png" alt="Bege" />Bege</div>
+          <div class="ellipse">
+            <img src="./img/Ellipse3.png" alt="Cinza" />Cinza
+          </div>
+          <div class="ellipse">
+            <img src="./img/Ellipse4.png" alt="Grafite" />Grafite
+          </div>
         </div>
-        <img src="./img/tenisbrancominiatura.png" alt="Tenis Branco Hylo" />
-        <p>Branco</p>
+        <img
+          class="tenisbrancominiatura"
+          src="./img/tenisbrancominiatura.png"
+          alt="Tenis Branco Hylo"
+        />
+        <p class="second-paragraph">Branco</p>
         <button>Adicionar ao carrinho</button>
       </aside>
-      <section>
+      <section class="first-section">
         <div>
           <div>
-            <h3>Leveza e agilidade</h3>
-            <p>
+            <h3 class="first-sectiontitle">Leveza e agilidade</h3>
+            <p class="third-paragraph">
               A construção ligeira de espuma e malha do SNEAK proporcionam
               conforto e agilidade durante o exercício. Um “burpee break” na
               parte frontal do pé torna-o extremamente flexível para fazer
@@ -70,6 +94,7 @@
           </div>
           <div>
             <img
+              class="leveza-agilidade"
               src="./img/Leveza e agilidade.jpg"
               alt="sola de tenis branco da Hylo"
             />
@@ -77,8 +102,8 @@
         </div>
         <div>
           <div>
-            <h3>Amortecimento imediato</h3>
-            <p>
+            <h3 class="second-sectiontitle">Amortecimento imediato</h3>
+            <p class="forth-paragraph">
               A espuma grossa sob o pé absorve o impacto e retorna a energia ao
               correr com os joelhos altos e ao saltar. O suporte de arco da
               parte média do pé garante conforto durante todo o treino.
@@ -86,41 +111,47 @@
           </div>
           <div>
             <img
+              class="pessoa1"
               src="./img/1"
               alt="Pessoa correndo com o tenis branco da Hylo"
             />
-            <img src="./img/2" alt="Tenis branco Hylo" />
+            <img class="pessoa2" src="./img/2" alt="Tenis branco Hylo" />
           </div>
         </div>
         <div>
           <div>
-            <h3>Sensação de estabilização</h3>
-            <p>
+            <h3 class="third-sectiontitle">Sensação de estabilização</h3>
+            <p class="fifth-paragraph">
               O outrigger - a proteção lateral - dá estabilidade ao pé ao fazer
               movimentos laterais, como por exemplo, o Skater Squat.
             </p>
           </div>
           <div>
             <img
+              class="sensacao-estabilizacao"
               src="./img/Sensação de estabilização.jpg"
               alt="Pessoas fazendo alongamento com o tenis branco da Hylo"
             />
           </div>
         </div>
       </section>
-      <aside>
-        <h3>
+      <aside class="second-aside">
+        <h3 class="second-asidetitle">
           CORRA<br />
           COMO SE O MUNDO<br />
           DEPENDESSE DE VOCÊ
         </h3>
-        <img src="./img/tenispreto.jpg" alt="Pessoa com tenis preto" />
+        <img
+          class="tenispreto"
+          src="./img/tenispreto.jpg"
+          alt="Pessoa com tenis preto"
+        />
       </aside>
       <section>
         <div>
-          <img src="./img/mapa.jpg" alt="Localização da loja" />
+          <img class="mapa" src="./img/mapa.jpg" alt="Localização da loja" />
         </div>
-        <form>
+        <form class="form">
           <h3>Entre em contato</h3>
           <input type="text" placeholder="Nome" />
           <input type="email" placeholder="Email" />
