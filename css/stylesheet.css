@@ -33,8 +33,7 @@ body {
   width: 20%;
 }
 
-.search.button {
-  font-family: "Lato", sans-serif;
+.search-button {
   background: #f2f2f2;
   border-radius: 50px;
   border: transparent;
@@ -102,14 +101,14 @@ body {
   margin: 0px -300px;
 }
 
-.aside {
+.first-aside {
   text-align: center;
   background-color: #f3f3f3;
   margin: 50px;
   padding: 40px;
 }
 
-.aside-title {
+.first-aside_title {
   font-weight: bold;
   font-size: 40px;
 }
@@ -126,7 +125,7 @@ body {
   padding-right: 20px;
 }
 
-.aside-paragraph {
+.first-aside_paragraph {
   padding-top: 45px;
   padding-bottom: 64px;
   font-weight: bold;
@@ -142,13 +141,10 @@ body {
   font-weight: bold;
 }
 
-.second-section {
-  padding: 150px 50px 50px 50px;
-}
-
 .second-section_divs {
   display: flex;
   align-items: top;
+  margin: 150px 50px 50px 50px;
 }
 
 .second-section_titles {
@@ -177,4 +173,188 @@ body {
   display: flex;
   align-items: top;
   flex-direction: row-reverse;
+  margin: 150px 50px 50px 50px;
+}
+
+.second-aside {
+  background-image: url("../img/tenispreto.jpg");
+  height: 720px;
+  margin: 150px -31px 50px 0px;
+}
+
+.second-aside_title {
+  font-weight: bold;
+  font-size: 104px;
+  line-height: 104px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  padding-left: 24px;
+  padding-top: 20px;
+}
+
+.arrow {
+  vertical-align: 20px;
+  padding-left: 8px;
+  width: 44px;
+  height: 45px;
+}
+
+.third-section {
+  margin: 150px 50px 50px 50px;
+  display: flex;
+}
+
+.third-section_image {
+  width: 827px;
+  height: 838px;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.third-section_form {
+  width: 613px;
+  height: 838px;
+  background: #f3f3f3;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.form-title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  margin: 40px 48px 40px 80px;
+}
+
+.form-name {
+  height: 76px;
+  width: 517px;
+  background: #ffffff;
+  border-radius: 12px;
+  margin: 0px 48px 24px 48px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #969696;
+  padding-left: 28px;
+}
+
+.form-email {
+  height: 76px;
+  width: 517px;
+  background: #ffffff;
+  border-radius: 12px;
+  margin: 0px 48px 24px 48px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #969696;
+  padding-left: 28px;
+}
+
+.form-comment {
+  display: block;
+  height: 260px;
+  width: 517px;
+  background: #ffffff;
+  border-radius: 12px;
+  margin: 0px 48px 56px 48px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #969696;
+  padding-left: 28px;
+  padding-top: 24px;
+}
+
+.form-checkbox_text {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #969696;
+}
+
+.form-checkbox {
+  vertical-align: -5px;
+  margin: 0px 16px 34px 48px;
+  width: 28px;
+  height: 28px;
+  background: #ffffff;
+  border: 2px solid #d2d2d2;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.form-button {
+  margin: 0px 48px 48px 48px;
+  height: 84px;
+  width: 517px;
+  border: 2px solid #1f1f1f;
+  box-sizing: border-box;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1f1f1f;
+}
+
+.footer {
+  background: #f3f3f3;
+  margin-top: 150px;
+  width: 1600px;
+}
+
+.footer-div {
+  display: flex;
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1f1f1f;
+  padding: 56px 230px 222px 100px;
+}
+
+.footer-list1 {
+  padding-right: 230px;
+  padding-bottom: 80px;
+}
+
+.footer-list1 a {
+  font-size: 20px;
+  line-height: 40px;
+  color: #1f1f1f;
+}
+
+.footer-list2 {
+  padding-right: 230px;
+}
+
+.footer-list2 a {
+  font-size: 20px;
+  line-height: 40px;
+  color: #1f1f1f;
+}
+
+.footer-list3 {
+  padding-right: 80px;
+}
+
+.footer-list3 li {
+  display: inline-block;
+  padding-right: 26px;
+}
+
+.list-titles {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  padding-top: 56px;
+  padding-bottom: 18px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  width: 1600px;
+  height: 68px;
 }
