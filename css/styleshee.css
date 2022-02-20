@@ -9,31 +9,27 @@ body {
   width: 1600px;
   height: 92px;
   background: #ffffff;
+  display: flex;
 }
 
 .header-title {
-  display: inline-block;
-  width: 20%;
   padding-top: 15px;
   margin-left: 80px;
+  margin-right: 230px;
 }
 
 .header-list {
-  display: inline-block;
-  width: 50%;
+  padding-top: 22px;
 }
 
 .list-element {
   display: inline;
-  position: relative;
   padding-left: 20px;
-  font-weight: 5 00;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
   color: black;
-}
-
-.search {
-  display: inline-block;
-  width: 20%;
+  padding: 0px 22px 32px 22px;
 }
 
 .search-button {
@@ -46,7 +42,11 @@ body {
   background-position: 0.7vw 3.2vh;
   padding: 14px 15px 14px 35px;
   font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
   color: #969696;
+  margin-left: 90px;
+  margin-top: 10px;
 }
 
 .search-bag {
@@ -54,12 +54,13 @@ body {
   border-radius: 50px;
   width: 52px;
   height: 52px;
-  vertical-align: -0.7vh;
-  margin-left: 24px;
+  vertical-align: -0.3vh;
+  margin-left: 20px;
 }
 
 .first-section {
-  padding: 0 40px 0 80px;
+  padding: 0 0px 0 80px;
+  width: 1440px;
 }
 
 .first-section_left {
@@ -91,13 +92,18 @@ body {
 .first-section_cart {
   border: 2px solid #1f1f1f;
   box-sizing: border-box;
+  background: #ffffff;
   border-radius: 12px;
-  padding: 20px 68px 20px 32px;
+  padding: 20px 30px 20px 32px;
   margin: 80px 0px;
-  background-image: url(../img/Add.svg);
-  background-repeat: no-repeat;
-  background-position: 14vw;
   font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.cart-add_sign {
+  vertical-align: -0.4vh;
+  padding-left: 20px;
 }
 
 .first-section_right {
@@ -106,18 +112,19 @@ body {
   margin-left: 0px;
   padding-right: 50px;
   border-radius: 50%;
-  background-color: #dadada;
+  background: linear-gradient(270.06deg, #fcf9f9 20.97%, #f0ecec 99.92%);
 }
 
 .first-section_image {
-  margin: 0px -300px;
+  margin: 0px -220px;
 }
 
 .first-aside {
   text-align: center;
   background-color: #f3f3f3;
-  margin: 50px;
-  padding: 40px;
+  margin: 50px 40px 50px 80px;
+  padding: 40px 0px 40px 40px;
+  width: 1440px;
 }
 
 .first-aside_title {
@@ -148,15 +155,18 @@ body {
   border: 2px solid #1f1f1f;
   box-sizing: border-box;
   border-radius: 12px;
-  padding: 20px 32px 20px 32px;
-  margin-bottom: 32px;
+  padding: 20px 30px 20px 32px;
+  margin: 80px 0px;
   font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .second-section_divs {
   display: flex;
   align-items: top;
-  margin: 150px 50px 50px 50px;
+  margin: 150px 0px 50px 80px;
+  width: 1440px;
 }
 
 .second-section_titles {
@@ -185,13 +195,16 @@ body {
   display: flex;
   align-items: top;
   flex-direction: row-reverse;
-  margin: 150px 50px 50px 50px;
+  margin: 150px 0px 50px 80px;
+  width: 1440px;
 }
 
 .second-aside {
   background-image: url("../img/tenispreto.jpg");
+  background-repeat: no-repeat;
   height: 720px;
-  margin: 150px -31px 50px 0px;
+  margin: 150px 0px 50px 0px;
+  width: 1600px;
 }
 
 .second-aside_title {
@@ -212,8 +225,9 @@ body {
 }
 
 .third-section {
-  margin: 150px 50px 50px 50px;
+  margin: 150px 0px 50px 80px;
   display: flex;
+  width: 1440px;
 }
 
 .third-section_image {
@@ -323,7 +337,7 @@ body {
   font-size: 20px;
   line-height: 28px;
   color: #1f1f1f;
-  padding: 56px 230px 222px 100px;
+  padding: 56px 200px 222px 100px;
 }
 
 .footer-list1 {
