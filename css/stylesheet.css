@@ -5,17 +5,20 @@ body {
 }
 
 .header {
-  padding: 20px;
+  padding: 20px 0px 20px 0px;
   width: 1600px;
   height: 92px;
   background: #ffffff;
   display: flex;
+  justify-content: center;
 }
 
 .header-title {
-  padding-top: 15px;
-  margin-left: 80px;
-  margin-right: 230px;
+  padding-top: 18px;
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: bold;
+  margin-right: 220px;
 }
 
 .header-list {
@@ -45,8 +48,8 @@ body {
   font-size: 20px;
   line-height: 28px;
   color: #969696;
-  margin-left: 90px;
   margin-top: 10px;
+  margin-left: 120px;
 }
 
 .search-bag {
@@ -333,6 +336,7 @@ body {
 
 .footer-div {
   display: flex;
+  justify-content: space-between;
 }
 
 .footer-title {
