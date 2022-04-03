@@ -1,4 +1,6 @@
 body {
+  width: 1600px;
+  height: 6532px;
   font-weight: 300;
   max-width: 100vw;
   margin: 0;
@@ -6,7 +8,7 @@ body {
 
 .header {
   padding: 20px 0px 20px 0px;
-  width: 1600px;
+  width: 100%;
   height: 92px;
   background: #ffffff;
   display: flex;
@@ -42,8 +44,8 @@ body {
   height: 32px;
   background-image: url("../img/Search.svg");
   background-repeat: no-repeat;
-  background-position: 0.7vw 3.2vh;
-  padding: 14px 15px 14px 35px;
+  background-position: 0.7vw 2.4vh;
+  padding: 14px 15px 14px 40px;
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
@@ -70,6 +72,9 @@ body {
   display: inline-block;
   width: 50%;
   vertical-align: top;
+  margin-top: 60px;
+  margin-bottom: 150px;
+
 }
 
 .first-section_title {
@@ -89,7 +94,7 @@ body {
   font-size: 20px;
   line-height: 28px;
   color: #1f1f1f;
-  margin: 10px;
+  margin-top: 20px;
 }
 
 .first-section_cart {
@@ -112,10 +117,18 @@ body {
 .first-section_right {
   display: inline-block;
   width: 40%;
-  margin-left: 0px;
-  padding-right: 50px;
-  border-radius: 50%;
-  background: linear-gradient(270.06deg, #fcf9f9 20.97%, #f0ecec 99.92%);
+  margin-top: 60px;
+}
+
+.first-section_rightbg {
+  position: absolute;
+  left: 900px;
+}
+
+.first-section_rightshoe {
+  position: absolute;
+  left: 830px;
+  top: 210px;
 }
 
 .first-section_image {
@@ -125,9 +138,8 @@ body {
 .first-aside {
   text-align: center;
   background-color: #f3f3f3;
-  margin: 50px 40px 50px 80px;
+  margin: 50px 70px 120px 80px;
   padding: 40px 0px 40px 40px;
-  width: 1440px;
 }
 
 .first-aside_title {
@@ -166,48 +178,88 @@ body {
   background: #f3f3f3;
 }
 
-.second-section_divs {
-  display: flex;
-  align-items: top;
-  margin: 150px 0px 50px 80px;
-  width: 1440px;
+.second-section_title {
+  position: relative;
+  left: 80px;
+  top: 140px;
+}
+.second-section_paragraph {
+  color: #1F1F1F;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+  position: relative;
+  margin-left: 80px;
+  top: 190px;
 }
 
-.second-section_titles {
-  background: -webkit-linear-gradient(
-    270.06deg,
-    #dadada 20.97%,
-    #9f9f9f 99.92%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 64px;
-  line-height: 64px;
+.second-section_img {
+  position: relative;
+  width: 704px;
+  height: 600px;
+  top: -80px;
+  left: 830px;
+  margin-bottom: -130px;
 }
 
-.second-section_paragraphs {
-  font-size: 20px;
-  line-height: 28px;
-  color: #1f1f1f;
-  margin: 10px;
-  margin-top: 56px;
+.third-section_title {
+  position: relative;
+  top: 300px;
+  left: 940px;
+}
+.third-section_paragraph {
+  color: #1F1F1F;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+  position: relative;
+  left: 940px;
+  top: 350px;
 }
 
-.second-section_second-div {
-  display: flex;
-  align-items: top;
-  flex-direction: row-reverse;
-  margin: 150px 0px 50px 80px;
-  width: 1440px;
+.third-section_img {
+  position: relative;
+  width: 704px;
+  height: 600px;
+  top: 0px;
+  left: 80px;
+}
+
+.forth-section_title {
+  position: relative;
+  left: 80px;
+  top: 200px;
+}
+.forth-section_paragraph {
+  color: #1F1F1F;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+  position: relative;
+  margin-left: 80px;
+  top: 220px;
+}
+
+.forth-section_img {
+  position: relative;
+  width: 704px;
+  height: 600px;
+  top: 0px;
+  left: 830px;
+  margin-bottom: 70px;
 }
 
 .second-aside {
   background-image: url("../img/tenispreto.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  width: 1600px;
+  width: 100%;
   height: 720px;
   object-fit: cover;
   margin: 150px 0px 50px 0px;
@@ -258,7 +310,7 @@ body {
 
 .form-name {
   height: 76px;
-  width: 517px;
+  width: 489px;
   background: #ffffff;
   border-radius: 12px;
   margin: 0px 48px 24px 48px;
@@ -267,11 +319,12 @@ body {
   line-height: 28px;
   color: #969696;
   padding-left: 28px;
+  padding-right: 28px;
 }
 
 .form-email {
   height: 76px;
-  width: 517px;
+  width: 489px;
   background: #ffffff;
   border-radius: 12px;
   margin: 0px 48px 24px 48px;
@@ -280,12 +333,13 @@ body {
   line-height: 28px;
   color: #969696;
   padding-left: 28px;
+  padding-right: 28px;
 }
 
 .form-comment {
   display: block;
   height: 260px;
-  width: 517px;
+  width: 489px;
   background: #ffffff;
   border-radius: 12px;
   margin: 0px 48px 56px 48px;
@@ -295,6 +349,8 @@ body {
   color: #969696;
   padding-left: 28px;
   padding-top: 24px;
+  padding-right: 28px;
+
 }
 
 .form-checkbox_text {
@@ -326,12 +382,19 @@ body {
   font-size: 20px;
   line-height: 28px;
   background: #f3f3f3;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: #1F1F1F;
 }
 
 .footer {
   background: #f3f3f3;
   margin-top: 150px;
-  width: 1600px;
+  width: 100%;
 }
 
 .footer-div {
